@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a2d2ff;
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 200px;
+    width: 300px;
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    border-radius: .75rem;
+    outline: none;
+}
+
+form input{
+    border: 1px solid lightgrey;
+    font-size: .8rem;
+    height: 2rem;
+    padding-left: .5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.select-container img{
+    max-width: 2rem;
+}
+i{
+    margin-right: 20px;
+    font-size: 1.3rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: .5rem;
+    max-width: 8rem;
+}
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+    text-align: center
+}
+form button{
+    height: 50px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    background-color: #0096c7;
+     cursor: pointer;
+     color: white;
+}
+.msg{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
